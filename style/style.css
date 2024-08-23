@@ -103,6 +103,7 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-bottom: 1px solid #fff;
 }
 .padre-nombreYTema div{
 max-width: 350px;
@@ -226,9 +227,9 @@ max-width: 350px;
  
 .whatssapp img{
     width: 50%;
-    max-width: 300px;
-    border-radius: 50%;  
+    max-width: 300px; 
     margin-bottom: 10px; 
+    margin-right: 15px;
 }  
 .whatssapp a{
     font-size: 2rem;
@@ -240,8 +241,52 @@ max-width: 350px;
     cursor: pointer;
     border-radius: 5px;
 }
+.whatssapp div{
+    margin-top: 10px;
+}
 .whatssapp a:hover{
     background: #fff5;
+}
+
+
+.padre-misionVision{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+.padre-mision p, .padre-vision p{
+    max-width: 350px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.8rem;
+    color: #fff;
+}
+.padre-mision h1, .padre-vision h1{
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.introduccion{
+    margin-top: 15px;
+}
+.introduccion h1{
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.introduccion p{
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: justify;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 
