@@ -99,6 +99,20 @@ button:hover {
 }
 
 
+.redessociales{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.redessociales img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 2px #fff;
+    padding: 3px;
+}
+
 .padre-nombreYTema{
     display: flex;
     flex-wrap: wrap;
@@ -172,6 +186,11 @@ max-width: 350px;
     max-width: 300px;
     border-radius: 50%;
 }
+
+.comida{
+    display: none;
+}
+
 
 .titulo-lugar{
     color: #fff;
