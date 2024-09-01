@@ -36,7 +36,7 @@ html{
     object-fit: contain;
 }
 
-button {
+.carousel-container button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -218,6 +218,7 @@ max-width: 350px;
     scroll-snap-type: x proximity;
     align-items: center;
     box-shadow: 5px 5px 15px #000;
+    margin-bottom: 50px;
 }
 
 .cena-desplazar img{
@@ -247,7 +248,7 @@ max-width: 350px;
  
 .whatssapp img{
     width: 50%;
-    max-width: 300px; 
+    max-width: 200px; 
     margin-bottom: 10px; 
     margin-right: 15px;
 }  
@@ -309,6 +310,77 @@ max-width: 350px;
     margin-right: auto;
 
 }
+
+
+
+
+
+.chat-container {
+    background-color: #d18616;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+}
+
+.chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.chat-message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    clear: both;
+    display: flex;
+    align-items: center;
+}
+
+.bot-message {
+    background-color: #000;
+    color: #fff;
+    float: left;
+}
+
+.user-message {
+    background-color: #f0f0f0;
+    float: right;
+}
+
+.bot-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+}
+
+.opciones button {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.opciones button:hover {
+    background-color: #0005;
+}
+
+
 
 
 
