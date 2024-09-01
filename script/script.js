@@ -90,6 +90,10 @@ function getBotResponse(message) {
     } else if (message.toLowerCase().includes('tema')) {
         botResponse = 'El tema es: "Inteligencia Artificial en la Administración"';
         imageUrl = './img/bootC.png';  // Reemplaza con la ruta de la imagen correspondiente
+    } 
+    else if (message.toLowerCase().includes('actividades')) {
+        botResponse = '¡No te lo puedes perder! Será una experiencia increible, con grandes exposiciones, una deliciosa cena, artistas invitados, música, regalos y mucho más.';
+        imageUrl = './img/bootC.png';  // Reemplaza con la ruta de la imagen correspondiente
     } else {
         botResponse = 'Para más información puedes comunicarte directamente con una persona: "4070-5701"';
         imageUrl = './img/bootA.png';  // Reemplaza con la ruta de la imagen correspondiente
