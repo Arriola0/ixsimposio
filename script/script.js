@@ -82,7 +82,7 @@ function getBotResponse(message) {
     let imageUrl = '';  // URL de la imagen para la respuesta específica
 
     if (message.toLowerCase().includes('fecha')) {
-        botResponse = 'El simposio se llevará a cabo día  Miercoles 16 de octubre de 2024.';
+        botResponse = 'El simposio se llevará a cabo el día  Miercoles 16 de octubre de 2024.';
         imageUrl = './img/bootD.png';  // Reemplaza con la ruta de la imagen correspondiente
     } else if (message.toLowerCase().includes('dónde')) {
         botResponse = 'El simposio se realizará en el Centro de Convenciones Colina Country Club.';
