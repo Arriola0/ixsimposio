@@ -18,7 +18,7 @@ function moveCarousel(index) {
 function startCarousel() {
     interval = setInterval(() => {
         moveCarousel(currentIndex + 1);
-    }, 3000); // Cambia la imagen cada 3 segundos
+    }, 4000); // Cambia la imagen cada 3 segundos
 }
 
 function stopCarousel() {
