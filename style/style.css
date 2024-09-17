@@ -176,8 +176,7 @@ max-width: 350px;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px #0003;
-    background: #000;
+    background: #0009;
 }
 .nombresExpositores{
     color: #fff;
@@ -188,27 +187,6 @@ max-width: 350px;
     width: 210px;
     height: 210px;
     padding: 20px;
-    border-radius: 50%;
-}
-.fondo_bandera_guate{
-    background-image: url("../img/guate.png");
-    background-repeat : no-repeat;
-    background-size : contain;
-}
-.fondo_bandera_colombia{
-    background-image: url("../img/colombia.png");
-    background-repeat : no-repeat;
-    background-size : contain;
-}
-.fondo_bandera_mexico{
-    background-image: url("../img/mexico.png");
-    background-repeat : no-repeat;
-    background-size : contain;
-}
-.fondo_musica{
-    background-image: url("../img/music.png");
-    background-repeat : no-repeat;
-    background-size : contain;
 }
 
 
@@ -265,7 +243,7 @@ max-width: 350px;
     align-items: center;
     box-shadow: 5px 5px 15px #000;
     margin-bottom: 50px;
-    background: #000;
+    background: #0009;
 }
 
 .cena-desplazar img{
@@ -491,7 +469,18 @@ max-width: 350px;
 
 
 
-
+.leyenda{
+    width: 100%;
+    text-align: center;
+}
+.leyenda p{
+    width: 50%;
+    color: #fff;
+    font-size: 2.3rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
