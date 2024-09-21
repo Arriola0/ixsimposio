@@ -508,24 +508,31 @@ max-width: 350px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
 }
 .hijo-patrocinios{
     width: 140px;
     margin-left: 10px;
     padding: 5px;
-    border: 1px solid #fff2;
     border-radius: 5px;
+}
+.padre-img-patrocinio{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-top: 1px solid #fff1;
 }
 .img-patrocinios{
     width: 100%;
+    height: auto;
 }
 .info-patrocinios{
     color: #fff;
     font-size: 1.5rem;
     text-align: left;
     word-wrap: break-word;
-    display: none;
+    border-top: 1px solid #fff1;
+    margin-top: 5px;
+    padding-top: 5px;
 }
 
 
