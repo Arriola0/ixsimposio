@@ -535,6 +535,18 @@ max-width: 350px;
     padding-top: 5px;
 }
 
+.sorteos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imgSorteos{
+    max-width: 390px;
+    width: 100%;
+    padding: 10px;
+}
+
+
 
 
 @media (min-width: 425px){
